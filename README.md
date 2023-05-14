@@ -32,6 +32,9 @@ Once done, the user can clear the Copied Objects folder of all the copied object
 
 6. Give it a new name and label or else it will default to "New Python Interface". Hit accept, choose the correct python script from the drop-down menu and the Project Manager UI will appear. 
 
-## Deployment
-The program was tested using unittests for each function. By creating a copy of the project.py file called testproject.py, the tool could be tested within Houdini, as shown below, mocking certain aspects of QT to replicate button pressed etc. Unfortunately there was an issue with the clear button test, but this was tested manually. Otherwise, all functions aside from the QT design were tested. 
+## Testing
+The program was tested using unittests for each function. By creating a copy of the project.py file called testproject.py, the tool could be tested within Houdini, as shown below, mocking certain aspects of QT to replicate button pressed etc. Unfortunately there was an issue with the clear button test, but this was tested manually. Otherwise, all aspects aside from the QT visual design were tested. 
     ![](./Testing.jpg)
+
+## References
+MIX Training (2017) VMT 023 - HOUDINI - Python Project Manager Series Chapter 01. Available at: https://www.youtube.com/watch?v=jL7jM1bJhxE.
