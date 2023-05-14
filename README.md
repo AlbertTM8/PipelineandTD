@@ -29,6 +29,7 @@ Once done, the user can clear the Copied Objects folder of all the copied object
 
     def onCreateInterface(): <br />
         return project.ProjectManager()
+        ![](./New%20Interface.jpg)
 
 6. Give it a new name and label or else it will default to "New Python Interface". Hit accept, choose the correct python script from the drop-down menu and the Project Manager UI will appear. 
 
