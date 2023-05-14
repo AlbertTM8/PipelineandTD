@@ -1,7 +1,6 @@
-import hou, toolutils
+import hou
 from PySide2 import QtWidgets, QtCore
-import os, shutil
-import tempfile
+import os
 obj = hou.node("/obj/")
 class ProjectManager(QtWidgets.QWidget):
     def __init__(self):
