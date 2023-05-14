@@ -6,7 +6,7 @@ class ProjectManager(QtWidgets.QWidget):
     def __init__(self):
         super(ProjectManager, self).__init__()
         self.cwd = hou.getenv('JOB') + '/'
-        self.title = QtWidgets.QLabel("Scene Breakdown")
+        self.title = QtWidgets.QLabel("Scenes List")
         self.title.setMinimumHeight(30) 
         self.title.setStyleSheet("QLabel{font-size: 16pt;}")
         self.listwidget = QtWidgets.QListWidget()
