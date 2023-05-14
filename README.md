@@ -15,12 +15,12 @@ Once done, the user can clear the Copied Objects folder of all the copied object
     As long as the user has Python and Houdini, no other packages should be required.
 
 ## Deployment
-    1. If a scripts/python directory doesn't exist in the Houdinixx.x (i.e. Houdini19.5) folder, create a Houdinixx.x/scripts/python folder.
-    2. Download the project folder and copy it into the scripts/python folder 
-    3. In Houdini, make a python panel 
-    ![](./Python%20Panel.jpg)
-    4. Define the project directory by choosing File > Prjoject.
-    5. Click New Interface as show below. Copy the following snippet of code into the script editor to run the Project Manager tool. It's also commented in the __init__.py file for reference. 
+1. If a scripts/python directory doesn't exist in the Houdinixx.x (i.e. Houdini19.5) folder, create a Houdinixx.x/scripts/python folder.
+2. Download the project folder and copy it into the scripts/python folder 
+3. In Houdini, make a python panel 
+![](./Python%20Panel.jpg)
+4. Define the project directory by choosing File > Prjoject.
+5. Click New Interface as show below. Copy the following snippet of code into the script editor to run the Project Manager tool. It's also commented in the __init__.py file for reference. 
     
 import importlib <br />
 from projectmanager import project <br />
