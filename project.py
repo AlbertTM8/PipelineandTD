@@ -79,7 +79,8 @@ class ProjectManager(QtWidgets.QWidget):
         if os.listdir(f"{self.project}/Copied Objects"):
             filelist = [ f for f in os.listdir(f"{self.project}/Copied Objects")]
             for f in filelist:
-                os.remove(os.path.join(f"{self.project}/Copied Objects", f))
+                if f.endswith(".fbx"):
+                    os.remove(os.path.join(f"{self.project}/Copied Objects", f))
     def currentBottomNode(self):
         self.selected = hou.selectedNodes()
         self.parentNode = self.selected[0].parent()
