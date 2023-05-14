@@ -22,13 +22,13 @@ Once done, the user can clear the Copied Objects folder of all the copied object
 4. Define the project directory by choosing File > Prjoject.
 5. Click New Interface as show below. Copy the following snippet of code into the script editor to run the Project Manager tool. It's also commented in the __init__.py file for reference. 
     
-import importlib <br />
-from projectmanager import project <br />
-importlib.reload(project) <br />
+    import importlib <br />
+    from projectmanager import project <br />
+    importlib.reload(project) <br />
 
 
-def onCreateInterface(): <br />
-    return project.ProjectManager()
+    def onCreateInterface(): <br />
+        return project.ProjectManager()
 
 6. Give it a new name and label or else it will default to "New Python Interface". Hit accept, choose the correct python script from the drop-down menu and the Project Manager UI will appear. 
 
